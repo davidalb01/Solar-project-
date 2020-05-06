@@ -34,14 +34,14 @@ String time_str, current_hour, current_minute, current_day, current_month, curre
 RTC_DATA_ATTR int bootCount = 0;
 
 // WiFi credentials
-const char* ssid     = "ASUS";
-const char* password = "Hanna1988";
+const char* ssid     = "SSID";
+const char* password = "PASSWORD";
  
 // Adafruit IO
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883
-#define AIO_USERNAME    "David0111"
-#define AIO_KEY         "a4f803cafc924242a4677894efbf8cb9"
+#define AIO_USERNAME    "USERNAME"
+#define AIO_KEY         "KEY"
  
 // Functions
 void connect();
