@@ -77,9 +77,6 @@ float busvoltage;
 Servo Azi_servo;
 Servo Ele_servo;
 
-uint16_t A2Dcumulative;
-float result;
-bool result_ready = false;
 
 void print_wakeup_reason(){
   esp_sleep_wakeup_cause_t wakeup_reason;
